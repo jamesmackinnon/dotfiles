@@ -17,6 +17,7 @@ set number			" Always show line numbers
 
 set nowrap			" Don't wrap lines
 set mouse=a			" Enable all mouse modes
+set ttymouse=xterm2
 " set cmdheight=2			" Make statusbar 2 rows high
 " set showtabline=2		" Always show tabbar
 
