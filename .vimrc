@@ -1,8 +1,8 @@
+execute pathogen#infect()
+
 set nocompatible		" Choosing Vim features over 100% vi compatibility
 
-" colorscheme molokai
-
-call pathogen#infect()		" Call pathogen to manage plugins
+colorscheme molokai
 
 set clipboard=unnamed
 
@@ -24,9 +24,9 @@ set ttymouse=xterm2
 syntax on			" Turn on syntax highlighting
 set hlsearch			" Highlight search terms
 
-map <F2> :NERDTreeToggle<CR>
+" map <F2> :NERDTreeToggle<CR>
 
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+" autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 
 imap <Tab> <C-P>
 imap jj <Esc>
